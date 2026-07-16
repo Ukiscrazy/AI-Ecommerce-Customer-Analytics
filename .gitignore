@@ -28,12 +28,7 @@ data/generated/
 Business_Report.pdf
 documents/*.pdf
 
-# Vector Database
-vector_db/
 
-# FAISS files (extra protection)
-*.faiss
-*.pkl
 
 # Jupyter
 .ipynb_checkpoints/
