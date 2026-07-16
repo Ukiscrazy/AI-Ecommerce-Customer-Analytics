@@ -1,0 +1,44 @@
+# Virtual Environment
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
+
+# Streamlit Secrets
+.streamlit/secrets.toml
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Generated Reports
+reports/
+
+# Generated Data
+data/generated/
+
+# PDFs
+Business_Report.pdf
+documents/*.pdf
+
+# Vector Database
+vector_db/
+
+# FAISS files (extra protection)
+*.faiss
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+#.env
+.env
