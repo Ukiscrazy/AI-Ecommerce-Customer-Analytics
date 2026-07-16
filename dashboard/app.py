@@ -1,6 +1,5 @@
 import sys
 import os
-from login import login
 PROJECT_ROOT = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..")
 )
@@ -31,8 +30,6 @@ st.set_page_config(
     page_icon="🛒",
     layout="wide"
 )
-if not login():
-    st.stop()
 # ==========================================================
 # CUSTOM CSS
 # ==========================================================
@@ -91,9 +88,6 @@ st.sidebar.markdown("---")
 st.sidebar.success("Database Connected")
 st.sidebar.markdown("---")
 
-if st.sidebar.button("🚪 Logout"):
-    st.session_state.logged_in = False
-    st.rerun()
 st.sidebar.markdown("---")
 st.sidebar.subheader("📌 Filters")
 st.sidebar.markdown("---")
